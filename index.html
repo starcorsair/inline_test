@@ -9,7 +9,7 @@
       href="https://unpkg.com/sanitize.css/typography.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/sanitize.css/forms.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Inline</title>
   </head>
   <body class="body">
@@ -21,27 +21,83 @@
       </nav>
     </header>
     <main class="main">
-      <div class="main_decription">
-        <p class="main_decription_text">
+      <section class="decription">
+        <p class="decription__text">
           Томаты на ветке красные (помидоры) - более плотные, яркие и ароматные
           по сравнению с обычными. Они славятся низкой калорийностью и высоким
           содержанием витаминов, клетчатки, пектина и минеральных веществ. В них
           содержатся также каротиноиды, кислоты и мощный антиоксидант ликопин.
         </p>
-        <p class="main_decription_text">
+        <p class="decription__text">
           Помидор - незаменимый продукт в мировой кулинарии. Он - основа
           многочисленных соусов, маринадов, кетчупа, испанского холодного супа
           Гаспачо или итальянской закуски Капрезе. С ним делают салаты, его
           тушат, солят и консервируют. Помидоры на веточке особенно красиво
           смотрятся в запеченном виде.
         </p>
-      </div>
-      <div class="main_table"></div>
+      </section>
+      <section class="table">
+        <div class="table__column">
+          <div class="table__section">
+            <h2 class="table__heading">Характеристики</h2>
+            <div class="table__row">
+              <p class="table__label">Страна</p>
+              <p class="table__value">Россия</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Поставщик</p>
+              <p class="table__value">Фермеры: Наталья и Юрий Лейшан</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Тип упаковки</p>
+              <p class="table__value">Крафтовый пакет</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Сертификаты качества</p>
+              <p class="table__value">В наличии</p>
+            </div>
+          </div>
+
+          <div class="table__section">
+            <h2 class="table__heading">Условия хранения</h2>
+            <div class="table__row">
+              <p class="table__label">Срок хранения</p>
+              <p class="table__value">7 дней</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Температура хранения</p>
+              <p class="table__value">от 3° до 7°</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="table__column">
+          <div class="table__section">
+            <h2 class="table__heading">Пищевая ценность на 100г</h2>
+            <div class="table__row">
+              <p class="table__label">Энергетическая ценность</p>
+              <p class="main-table__value">18 кКал</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Белки</p>
+              <p class="table__value">0.9 г</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Жиры</p>
+              <p class="table__value">0.2 г</p>
+            </div>
+            <div class="table__row">
+              <p class="table__label">Углеводы</p>
+              <p class="table__value">3.9 г</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="footer_slider">
-        <h1 class="footer_slider_head"></h1>
-        <div class="footer_slider_cards"></div>
+      <div class="slider">
+        <h1 class="slider__head"></h1>
+        <div class="slider__cards"></div>
       </div>
     </footer>
   </body>
