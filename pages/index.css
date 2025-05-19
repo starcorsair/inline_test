@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -61,4 +62,59 @@ body {
   .table__row {
     margin-bottom: 10px;
   }
+}
+
+/* CARDS */
+.card {
+  width: 303px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #424141;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+
+.card__vendor {
+  font-weight: 400;
+  font-size: 12px;
+  color: #89817f;
+  margin-top: 7px;
+  margin-left: 13px;
+}
+
+.card__price {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 29px;
+  margin-left: 13px;
+  text-align: left;
+}
+
+.card__volume {
+  font-weight: 400;
+  font-size: 12px;
+  color: #3d3c3c;
+  margin-left: 4px;
+}
+
+.card__rating {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 13px;
+  margin-bottom: 20px;
+  color: #ffd700;
 }
