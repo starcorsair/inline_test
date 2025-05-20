@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,9 +16,9 @@
     <header class="header">
       <!--NAV-->
       <nav class="nav">
-        <a class="nav_link" href="index.html">Описание</a>
-        <a class="nav_link" href="reviews.html">Отзывы</a>
-        <a class="nav_link" href="locations.html">Откуда</a>
+        <a class="nav__link" href="index.html">Описание</a>
+        <a class="nav__link" href="reviews.html">Отзывы</a>
+        <a class="nav__link" href="locations.html">Откуда</a>
       </nav>
     </header>
     <main class="main">
@@ -103,29 +103,77 @@
         <h1 class="slider__head"></h1>
         <div class="slider__cards">
           <!--CARDS-->
+          <!--CARD 1-->
           <div class="card">
-            <img src="milk.jpg" alt="Молоко 3,2%" class="card__image" />
+            <img
+              src="images/photo-milk.svg"
+              alt="Молоко 3,2%"
+              class="card__image"
+            />
+            <!--card container-->
+            <div class="card__container-main">
+              <!--text-->
+              <div class="card__container-text">
+                <h2 class="card__title">Молоко 3,2 %</h2>
+                <p class="card__vendor">от Вадима Рошки</p>
 
-            <h2 class="card__title">Молоко 3,2 %</h2>
-            <p class="card__vendor">от Вадима Рошки</p>
-
-            <p class="card__price">
-              95 ₽ <span class="card__volume">/ 0,93 л</span>
-            </p>
-
-            <div class="card__rating">
-              <input type="radio" id="star5" name="card__rating" value="5" />
-              <label for="star5" title="text">5 stars</label>
-              <input type="radio" id="star4" name="card__rating" value="4" />
-              <label for="star4" title="text">4 stars</label>
-              <input type="radio" id="star3" name="card__rating" value="3" />
-              <label for="star3" title="text">3 stars</label>
-              <input type="radio" id="star2" name="card__rating" value="2" />
-              <label for="star2" title="text">2 stars</label>
-              <input type="radio" id="star1" name="card__rating" value="1" />
-              <label for="star1" title="text">1 star</label>
+                <p class="card__price">
+                  95 ₽ <span class="card__volume">/ 0,93 л</span>
+                </p>
+                <!--rating-->
+                <div class="card__container-rating">
+                  <div class="card__rating">
+                    <input
+                      type="radio"
+                      id="star5"
+                      name="card__rating"
+                      value="5"
+                    />
+                    <label for="star5" title="text">5 stars</label>
+                    <input
+                      type="radio"
+                      id="star4"
+                      name="card__rating"
+                      value="4"
+                    />
+                    <label for="star4" title="text">4 stars</label>
+                    <input
+                      type="radio"
+                      id="star3"
+                      name="card__rating"
+                      value="3"
+                    />
+                    <label for="star3" title="text">3 stars</label>
+                    <input
+                      type="radio"
+                      id="star2"
+                      name="card__rating"
+                      value="2"
+                    />
+                    <label for="star2" title="text">2 stars</label>
+                    <input
+                      type="radio"
+                      id="star1"
+                      name="card__rating"
+                      value="1"
+                    />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+              </div>
+              <!--button-->
+              <div class="card__container-button">
+                <a class="card__button" href="#">
+                  <img
+                    class="card__button-image"
+                    src="images/shopp-card-green.svg"
+                    alt="Корзина"
+                  />
+                </a>
+              </div>
             </div>
           </div>
+          <!--CARD 2-->
         </div>
       </div>
     </footer>
