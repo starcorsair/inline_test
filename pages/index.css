@@ -79,7 +79,7 @@ body {
 .card {
   width: 250px;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #0000001a;
   overflow: hidden;
   background-color: #fff;
   border: #f9ce1e 1px solid;
@@ -95,8 +95,13 @@ body {
   font-weight: 600;
   font-size: 14px;
   color: #424141;
-  margin-top: 14px;
   margin-left: 11px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.card__title:hover {
+  color: #6e6a6a;
 }
 
 .card__vendor {
@@ -134,6 +139,7 @@ body {
   float: left;
   height: 15px;
   padding: 0px 3px 30px 0px;
+  transition: all 0.3s ease;
 }
 .card__rating:not(:checked) > input {
   position: absolute;
@@ -171,9 +177,37 @@ body {
 .card__button-image {
   width: 66px;
   height: 36px;
+  transition: all 0.3s ease;
 }
 
 .card__button:hover img {
+  width: 69px;
+  height: 39px;
+}
+
+/*like*/
+
+.card__like-image {
+  width: 20px;
+  height: 18px;
+  transition: all 0.3s ease;
+}
+.card__container-image {
+  position: relative;
+  margin-bottom: 14px;
+}
+.card__like {
+  position: absolute;
+  z-index: 3;
+  left: 214px;
+  top: 16px;
+  bottom: 90;
+  transition: all 0.3s ease;
+}
+
+.card__like:hover img {
+  width: 23px;
+  height: 21px;
 }
 
 /* temporary*/

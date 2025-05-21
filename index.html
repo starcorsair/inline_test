@@ -104,17 +104,26 @@
         <div class="slider__cards">
           <!--CARDS-->
           <!--CARD 1-->
-          <div class="card">
-            <img
-              src="images/photo-milk.svg"
-              alt="Молоко 3,2%"
-              class="card__image"
-            />
+          <div class="card" id="card_1">
+            <div class="card__container-image">
+              <img
+                src="images/photo-milk.svg"
+                alt="Молоко 3,2%"
+                class="card__image"
+              />
+              <a class="card__like" href="#">
+                <img
+                  src="images/card-heart.svg"
+                  alt="Like"
+                  class="card__like-image"
+                />
+              </a>
+            </div>
             <!--card container-->
             <div class="card__container-main">
               <!--text-->
               <div class="card__container-text">
-                <h2 class="card__title">Молоко 3,2 %</h2>
+                <a class="card__title" href="#">Молоко 3,2 %</a>
                 <p class="card__vendor">от Вадима Рошки</p>
 
                 <p class="card__price">
@@ -174,6 +183,242 @@
             </div>
           </div>
           <!--CARD 2-->
+          <div class="card" id="card_2">
+            <div class="card__container-image">
+              <img
+                src="images/photo-bread.svg"
+                alt="Хлеб пшеничный"
+                class="card__image"
+              />
+              <a class="card__like" href="#">
+                <img
+                  src="images/card-heart.svg"
+                  alt="Like"
+                  class="card__like-image"
+                />
+              </a>
+            </div>
+            <!--card container-->
+            <div class="card__container-main">
+              <!--text-->
+              <div class="card__container-text">
+                <a class="card__title" href="#">Хлеб пшеничный</a>
+                <p class="card__vendor">от Дарьи и Марии</p>
+
+                <p class="card__price">
+                  95 ₽ <span class="card__volume">/ 930 г</span>
+                </p>
+                <!--rating-->
+                <div class="card__container-rating">
+                  <div class="card__rating">
+                    <input
+                      type="radio"
+                      id="star5"
+                      name="card__rating"
+                      value="5"
+                    />
+                    <label for="star5" title="text">5 stars</label>
+                    <input
+                      type="radio"
+                      id="star4"
+                      name="card__rating"
+                      value="4"
+                    />
+                    <label for="star4" title="text">4 stars</label>
+                    <input
+                      type="radio"
+                      id="star3"
+                      name="card__rating"
+                      value="3"
+                    />
+                    <label for="star3" title="text">3 stars</label>
+                    <input
+                      type="radio"
+                      id="star2"
+                      name="card__rating"
+                      value="2"
+                    />
+                    <label for="star2" title="text">2 stars</label>
+                    <input
+                      type="radio"
+                      id="star1"
+                      name="card__rating"
+                      value="1"
+                    />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+              </div>
+              <!--button-->
+              <div class="card__container-button">
+                <a class="card__button" href="#">
+                  <img
+                    class="card__button-image"
+                    src="images/shopp-card-green.svg"
+                    alt="Корзина"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--CARD 3-->
+          <div class="card" id="card_3">
+            <div class="card__container-image">
+              <img
+                src="images/photo-eggs.svg"
+                alt="Яйца куриные"
+                class="card__image"
+              />
+              <a class="card__like" href="#">
+                <img
+                  src="images/card-heart.svg"
+                  alt="Like"
+                  class="card__like-image"
+                />
+              </a>
+            </div>
+            <!--card container-->
+            <div class="card__container-main">
+              <!--text-->
+              <div class="card__container-text">
+                <a class="card__title" href="#">Яйца куриные</a>
+                <p class="card__vendor">от Евгения Рошаль</p>
+
+                <p class="card__price">
+                  120 ₽ <span class="card__volume">/ 10 шт</span>
+                </p>
+                <!--rating-->
+                <div class="card__container-rating">
+                  <div class="card__rating">
+                    <input
+                      type="radio"
+                      id="star5"
+                      name="card__rating"
+                      value="5"
+                    />
+                    <label for="star5" title="text">5 stars</label>
+                    <input
+                      type="radio"
+                      id="star4"
+                      name="card__rating"
+                      value="4"
+                    />
+                    <label for="star4" title="text">4 stars</label>
+                    <input
+                      type="radio"
+                      id="star3"
+                      name="card__rating"
+                      value="3"
+                    />
+                    <label for="star3" title="text">3 stars</label>
+                    <input
+                      type="radio"
+                      id="star2"
+                      name="card__rating"
+                      value="2"
+                    />
+                    <label for="star2" title="text">2 stars</label>
+                    <input
+                      type="radio"
+                      id="star1"
+                      name="card__rating"
+                      value="1"
+                    />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+              </div>
+              <!--button-->
+              <div class="card__container-button">
+                <a class="card__button" href="#">
+                  <img
+                    class="card__button-image"
+                    src="images/shopp-card-green.svg"
+                    alt="Корзина"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--CARD 4-->
+          <div class="card" id="card_4">
+            <div class="card__container-image">
+              <img
+                src="images/photo-butter.svg"
+                alt="Масло сливочное 82 %"
+                class="card__image"
+              />
+              <a class="card__like" href="#">
+                <img
+                  src="images/card-heart.svg"
+                  alt="Like"
+                  class="card__like-image"
+                />
+              </a>
+            </div>
+            <!--card container-->
+            <div class="card__container-main">
+              <!--text-->
+              <div class="card__container-text">
+                <a class="card__title" href="#">Масло сливочное 82 %</a>
+                <p class="card__vendor">от Вадима Рошки</p>
+
+                <p class="card__price">
+                  290 ₽ <span class="card__volume">/ 250 г</span>
+                </p>
+                <!--rating-->
+                <div class="card__container-rating">
+                  <div class="card__rating">
+                    <input
+                      type="radio"
+                      id="star5"
+                      name="card__rating"
+                      value="5"
+                    />
+                    <label for="star5" title="text">5 stars</label>
+                    <input
+                      type="radio"
+                      id="star4"
+                      name="card__rating"
+                      value="4"
+                    />
+                    <label for="star4" title="text">4 stars</label>
+                    <input
+                      type="radio"
+                      id="star3"
+                      name="card__rating"
+                      value="3"
+                    />
+                    <label for="star3" title="text">3 stars</label>
+                    <input
+                      type="radio"
+                      id="star2"
+                      name="card__rating"
+                      value="2"
+                    />
+                    <label for="star2" title="text">2 stars</label>
+                    <input
+                      type="radio"
+                      id="star1"
+                      name="card__rating"
+                      value="1"
+                    />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+              </div>
+              <!--button-->
+              <div class="card__container-button">
+                <a class="card__button" href="#">
+                  <img
+                    class="card__button-image"
+                    src="images/shopp-card-green.svg"
+                    alt="Корзина"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
